@@ -8,8 +8,9 @@ table, th, td {
 }
 
 p {
-  line-height: 1.2;
+  line-height: 2;
   text-align: justify;
+  width: 25%;
 }
 
 h3 {
