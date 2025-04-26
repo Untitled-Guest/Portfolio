@@ -7,6 +7,24 @@ table, th, td {
   border: 1px solid black;
 }
 
+table {
+  background-color: cyan;
+}
+
+th {
+  background-color: skyblue;
+}
+
+td {
+  background-color: #ACE7FF;
+}
+
+
+tr {
+  border: 1px solid black;
+  background-color: black;
+}
+
 p {
   line-height: 2;
   text-align: justify;
