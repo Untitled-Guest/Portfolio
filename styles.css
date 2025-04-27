@@ -28,3 +28,8 @@ p {
 h3 {
   color: purple;
 }
+
+span {
+  color: slategray;
+  text-decoration: dashed line-through darkblue;
+}
