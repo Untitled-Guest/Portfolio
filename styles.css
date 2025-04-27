@@ -30,6 +30,6 @@ h3 {
 }
 
 span {
-  color: slategray;
-  text-decoration: dashed line-through darkblue;
+  color: rgb(179, 189, 199);
+  text-decoration: dashed line-through rgb(216, 216, 216);
 }
