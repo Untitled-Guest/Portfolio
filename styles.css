@@ -1,35 +1,19 @@
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
 body {
-  width: 100%;
-  text-align: center;
-}
-
-table, th, td {
-  border: 1px solid black;
-}
-
-table {
-  background-color: cyan;
-}
-
-th {
-  background-color: skyblue;
-}
-
-td {
-  background-color: #ACE7FF;
+  width: 90%;
+  background-color: black;
+  margin: 0 auto;
 }
 
 p {
   line-height: 2;
   text-align: justify;
   width: 25%;
-}
-
-h3 {
-  color: purple;
-}
-
-span {
-  color: rgb(179, 189, 199);
-  text-decoration: dashed line-through rgb(216, 216, 216);
 }
