@@ -21,3 +21,7 @@ p {
   text-align: justify;
   width: 25%;
 }
+
+a {
+  text-decoration: none;
+}
