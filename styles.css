@@ -1,8 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Reenie+Beanie);
+@import url(https://fonts.googleapis.com/css2?family=Tagesschrift);
+
 
 h1 {
   font-size: 72px;
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Reenie Beanie';
 }
 
 h2 {
@@ -11,15 +13,31 @@ h2 {
 
 body {
   width: 90%;
-  background-color: rgb(82, 82, 82);
-  color: white;
+  background-color: rgb(198, 238, 255);
+  color: black;
   margin: 0 auto;
 }
 
-p {
+#backstory {
   line-height: 2;
   text-align: justify;
   width: 25%;
+}
+
+#lookatme {
+  font-family: 'Tagesschrift', cursive;
+  font-size: 40px;
+  width: 20%;
+  padding: 20px;
+  background-color: orange;
+  border: 20px solid coral;
+  border-radius: 10px 0 50px 0;
+  text-align: center;
+}
+
+#lookatme:hover {
+  background-color: coral;
+  border: 20px solid orange;
 }
 
 a {
