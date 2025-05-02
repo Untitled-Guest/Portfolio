@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Reenie+Beanie);
+
 h1 {
   font-size: 72px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 h2 {
@@ -8,7 +11,7 @@ h2 {
 
 body {
   width: 90%;
-  background-color: black;
+  background-color: rgb(82, 82, 82);
   margin: 0 auto;
 }
 
