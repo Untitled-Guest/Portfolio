@@ -1,33 +1,43 @@
 @import url(https://fonts.googleapis.com/css2?family=Reenie+Beanie);
 @import url(https://fonts.googleapis.com/css2?family=Tagesschrift);
 
+body {
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+header {
+  background-color: blue;
+}
+
+.content {
+  width: 90%;
+}
 
 h1 {
   font-size: 72px;
   font-family: 'Reenie Beanie';
 }
 
-h2 {
-  font-size: 48px;
+#pagetitle {
+  background-image: url("bearsmth.png");
+  background-size: cover;
+  opacity: 0.2;
 }
 
-body {
-  width: 90%;
-  background-color: rgb(198, 238, 255);
-  color: black;
-  margin: 0 auto;
+h2 {
+  font-size: 48px;
 }
 
 #backstory {
   line-height: 2;
   text-align: justify;
-  width: 25%;
 }
 
 #lookatme {
   font-family: 'Tagesschrift', cursive;
   font-size: 40px;
-  width: 20%;
   padding: 20px;
   background-color: orange;
   border: 20px solid coral;
