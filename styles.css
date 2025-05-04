@@ -29,15 +29,15 @@ header > nav > div > a {
 
 .left-header-nav {
   text-align: left;
-  width: 50%;
+  width: 100%;
   display: inline-flex;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 .right-header-nav {
   text-align: right;
-  width: 50%;
-  display: inline-flex;
+  width: 30%;
+  display: none;
   overflow-x: hidden;
 }
 

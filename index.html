@@ -30,7 +30,15 @@
       <p id="backstory">I learned html when I was like 10
         Unfortunately, like other memories of my childhood, I forgot some of them.
         I'm learning it rn tho :)</p>
-      <p id="lookatme">LOOK AT ME!</p>
+      <p>Enter your message:</p>
+      <input class="inpfield" id="inpfield">
+      <p class="" id="lookatme">LOOK AT ME!</p>
     </div>
   </body>
+  <script>
+    function textUpd() {
+      lookatme.textContent = inpfield.value;
+    };
+    inpfield.oninput = textUpd;
+  </script>
 </html>
