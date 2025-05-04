@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: blue;
+  background-color: rgb(60, 60, 255);
   margin: 0;
 }
 
@@ -24,7 +24,11 @@ header > nav {
 }
 
 header > nav > div > a {
-  margin: 10px;
+  margin: 10px 20px;
+}
+
+header > nav > div > a > span {
+  margin-left: 10px;
 }
 
 .left-header-nav {
@@ -83,5 +87,5 @@ h2 {
 
 a {
   text-decoration: none;
-  color: skyblue;
+  color: white;
 }
