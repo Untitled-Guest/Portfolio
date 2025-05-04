@@ -1,6 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Reenie+Beanie);
 @import url(https://fonts.googleapis.com/css2?family=Tagesschrift);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   color: black;
@@ -10,6 +14,31 @@ body {
 
 header {
   background-color: blue;
+  margin: 0;
+}
+
+header > nav {
+  margin: 0;
+  font-size: 24px;
+  padding: 5px 0;
+}
+
+header > nav > div > a {
+  margin: 10px;
+}
+
+.left-header-nav {
+  text-align: left;
+  width: 50%;
+  display: inline-flex;
+  overflow-x: hidden;
+}
+
+.right-header-nav {
+  text-align: right;
+  width: 50%;
+  display: inline-flex;
+  overflow-x: hidden;
 }
 
 .content {
