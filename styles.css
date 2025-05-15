@@ -12,6 +12,7 @@ body {
   color: black;
   width: 100%;
   margin: 0;
+  font-size: 16px;
 }
 
 h1 {
@@ -64,7 +65,7 @@ header > nav > div > a > span {
 }
 
 .banner-text {
-  max-width: 400px;
+  max-width: 600px;
   display: inline-block;
   vertical-align: middle;
   text-align: left;
@@ -129,7 +130,7 @@ header > nav > div > a > span {
 }
 
 .content-text {
-  max-width: 400px;
+  max-width: 600px;
   display: inline-block;
   vertical-align: middle;
   text-align: right;
